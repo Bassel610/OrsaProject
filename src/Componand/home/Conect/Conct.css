@@ -1,0 +1,32 @@
+
+/* Start  Conect */
+.ContactCont{
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+    margin-left: 214px;
+    margin-bottom: 20px;
+  
+  }
+  .ContactText{
+    text-align: start;
+    margin: 24px;
+    font-size: var(--HFont);
+    font-family: var(--HFont-famly);
+    color: var(--HColor);
+  }
+  .IcoCont{
+    display: flex;
+    margin-left:24px
+  }
+  .IcoServ{
+    font-size: 31px;
+    margin: 20px;
+    margin-left: 63px;
+    color: black;
+    cursor: pointer;
+  }
+  .IcoServ:hover{
+    color: gray;
+  }
+  /* End Conect */

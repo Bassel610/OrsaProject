@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Caprasimo&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+:root{
+  --header-height: 3.5rem;
+  /* //// COLOR */
+  --First-Col : hsl(2, 100%, 61%);
+  --Sco-Col : hsl(2, 89%, 53%);
+  --HColor : hsl(2deg 100% 42.28%);
+  --Title-Col : hsl(233, 20%, 15%);
+  --Text-Col : hsl(233, 4%, 35%);
+  --Body-Col : hsl(1, 98%, 94%);
+  
+  /* //// FONTS */
+  --body-Fonts :  'Open Sans', sans-serif;
+  --Sco-Fonts : 'Lemon', cursive;
+  --biggest-Fonts : 3.25rem;
+  --normal-Fonts : .938rem;
+  --HFont : 32px;
+  --HFont-famly : 'Caprasimo', cursive;
+}
+
+
+
+body {
+  font-family: var(--body-Fonts);
+  font-size: var(--normal-Fonts);
+  background-color: var(--Body-Col);
+  color: var(--Text-Col);
+  height: auto;
+  overflow-x: hidden;
+}
+
+/* Lipraly */
+.Icon{
+  position: absolute;
+  top: 22px;
+  right: 15px;
+  font-size: 25px;
+  color: black;
+  z-index: 10;
+  display: none;
+  cursor: pointer;
+  transition: .5s;
+}
+.IcoToggle{
+  transform: rotate(90deg);
+  position: absolute;
+  top: 22px;
+  right: 15px;
+  font-size: 25px;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+}
+.FrstCol{
+  color: var(--First-Col);
+}
+.Disply{
+  display: block;
+}
+.Down{
+  transform: translateY(0px) !important;
+}
+  .Margin{
+    margin: 150px;
+  }
+  .Footer{
+    width: 102%;
+    height: 30px;
+    position: relative;
+    bottom: -14px;
+    left: -9px;
+    background-color: hsl(1deg 68.56% 76.96%);
+  }
+/* Lipraly */
+
+
+

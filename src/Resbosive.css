@@ -1,0 +1,158 @@
+
+@media (max-width: 900px) {
+    .NavList{
+        display: none !important;
+    }
+    .Icon{
+        display: inline !important;
+    }
+    .LogoNav{
+        margin-left: -21px !important;
+    }
+    .Logo{
+    z-index: 3 !important;
+    position: relative !important;
+    left: -3% !important;
+    width: 142px !important;
+    }
+}
+@media (max-width: 800px) {
+    .RightView{
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .LeftView{
+        position: relative !important;
+        top: -32px !important;
+        float: none !important;
+        height: 235px !important;
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .Button{
+        font-size: 15px !important;
+        padding: 7px !important;
+    }
+    .BigText{
+        font-size: 1.8rem !important; 
+    }
+}
+@media (max-width: 800px) {
+    .DivCol1{
+        width: 140px !important;
+        height: 373px !important;
+    }
+    .DivCol2{
+        width: 140px !important;
+        height: 350px !important;
+        right: 0 !important;
+        z-index: -1 !important;
+    }
+}
+@media (max-width: 800px) {
+  .ImagesFrute1{
+    width: 293px !important;
+    /* left: -.5rem !important; */
+    }
+      .ImagesFrute2{
+        width: 229px !important;
+        left: -1.5rem !important;    
+        right: auto !important;
+        /* top: 4rem !important; */
+        margin: 0 auto !important;
+      }
+      .ImagesFrute3{
+        width: 359px !important;
+        bottom: 2rem !important;
+        top: 40px;
+        left: 13px !important;
+    
+      }
+      .ImagesFrute4{
+        width: 91px !important;
+        /* top: 6rem !important; */
+        /* left: -0.35rem !important; */
+      }
+      .ImagesFrute5:nth-child(1){
+        top: -3rem !important;
+        /* left: 12rem !important; */
+      }
+      .ImagesFrute5:nth-child(2){
+        transform: rotate(-65deg) !important;
+        top: -0.5rem !important;
+        /* left: 1.25rem !important; */
+      }
+      .ImagesFrute5:nth-child(3){
+        width: 359px !important;
+        top: -0.5rem !important;
+        /* left: 1.5rem !important; */
+        /* right: auto !important; */
+        bottom: 2.5rem !important;
+      }
+    }
+    @media (max-width: 800px) {
+      .About-Us{
+        height: auto !important;
+      }
+      .TextAbout{
+        width: 100% !important;
+      }
+        .icon{
+          width: calc(100%) !important;
+          height: 311px !important;
+          display: inline-flex !important;
+        }
+        .Ico {
+          font-size: 48px !important;
+          float: none !important;
+          top: 175px !important;
+          right: -77px !important;
+        }
+        .Dis{
+          display: none !important;
+        }
+        .TextIco {
+          width: 85% !important;
+      }
+    }
+    @media (max-width: 800px) {
+      .ContactCont{
+        margin-left: 0 !important;
+      }
+      .Servace{
+        height: auto !important;
+      }
+      .IcoServ{
+        margin-left: 0 !important;
+      }
+      .TextAbout{
+          margin-left: 0 !important;
+      }
+      .PostionSerc{
+        position: relative !important;
+      left: -35px !important; 
+      }
+      .Imges{
+        margin: auto !important;
+      }
+      .img{
+        position: absolute !important;
+        left: 10px !important;
+      }
+    }
+    @media (min-width: 400px) and (max-width: 1200px){
+        .VideoBout{
+          display: none !important;
+        }
+        .ImgAbout{ 
+          display: none !important;
+        }
+        .About-Us{
+          height: 180px !important;
+        }
+    }
+    @media (min-width: 800px) and (max-width: 930px){
+        .ImgAbout{
+          width: 330px !important;
+        }
+    }

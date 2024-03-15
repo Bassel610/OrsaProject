@@ -1,0 +1,47 @@
+.DountsCont{
+width: 100%;
+height: auto;
+
+}
+.Product{
+    width: 300px;
+    height: 460px;
+    background: white;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+}
+.ImgCon{
+    width: 100%;
+    height: 82%;
+}
+.ImgDoun{
+    width: 100%;
+    height: 100%;
+}
+.DetilsCon{
+
+}
+.Flavor{
+    font-size: 21px;
+    color: black;
+    font-family: 'Caprasimo';
+}
+.Description{
+    color: black;
+    font-weight: bolder;
+    width: 183px;
+
+}
+.Price{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 70px;
+}
+.Pay{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: -7px;
+    color: var(--Sco-Col);
+    cursor: pointer;
+}

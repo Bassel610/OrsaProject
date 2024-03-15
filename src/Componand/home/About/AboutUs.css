@@ -1,0 +1,50 @@
+/* Start  About-Us */
+.About-Us{
+    width: 100%;
+    height: 900px;
+  }
+  .TextAbout{
+    width: 55%;
+  }
+  .H4About{
+    text-align: start;
+    margin: 24px;
+    font-size: var(--HFont);
+    font-family: var(--HFont-famly);
+    color: var(--HColor);
+  }
+  .Text{
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    letter-spacing: 1px;
+  }
+  .ImgAbout{
+    float: right;
+    width: 400px;
+    height: auto;
+    background: white;
+    position: relative;
+    top: -170px;
+    right: 100px;
+  
+  }
+  .ImgAb{
+  width: 100%;
+  height: 100%;
+  }
+  .VideoBout{
+    width: 100%;
+    height: 578px;
+    position: relative;
+    top: 74px;
+  }
+  .FirVid{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  /* End About-Us */
+  

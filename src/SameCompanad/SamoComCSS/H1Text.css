@@ -1,0 +1,5 @@
+.H1Text{
+    color: var(--Sco-Col);
+    font-family: var(--HFont-famly);
+    font-size: 40px;
+}

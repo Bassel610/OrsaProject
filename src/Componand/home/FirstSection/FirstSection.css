@@ -1,0 +1,200 @@
+.Nav{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--Body-Col);
+  }
+  /* .position{
+    position: absolute;
+    top: 150px;
+    right: 90px;
+  } */
+  .LogoNav{
+    margin-left: 12%;
+    font-family: var(--Sco-Fonts);
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: var(--Title-Col);
+    z-index: 3;
+  }
+  .Logo{
+    /* margin-left: 15%; */
+    font-size: 11px;
+    z-index: 3;
+    position: relative;
+    left: 15%;
+  }
+  .NavList{
+    position: absolute;
+    right: 182px;
+    margin-top: 8px;
+  }
+  
+  .LiNav{
+    list-style: none;
+    display: inline;
+    padding: 24px;
+    font-family: var(--Title-Col);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .NavMopile{
+    width: 100%;
+    height: 324px;
+    background-color: white;
+    z-index: 2;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+    transform: translateY(-400px);
+    transition: .5s;
+    position: fixed;
+    top: 34px;
+    left: 0;
+  }
+  .ULnav2{
+    margin-top: 45px;
+  }
+  
+  .LiNav2{
+    list-style: none;
+    /* display: inline; */
+    padding: 18px;
+    font-family: var(--Title-Col);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  /* End Nav */
+  /* Start FirstView */
+  .FirstView{
+    width: 100%;
+    height: 600px;
+  }
+  .LeftView{
+    width: 50%;
+    height: 100%;
+    float: left;
+    z-index: 1;
+  }
+  .BigText{
+    font-size: var(--biggest-Fonts);
+    color: var(--Title-Col);
+    font-family: var(--Sco-Fonts);
+    padding-top: 80px;
+    font-weight: bolder;
+  }
+  .SmallText{
+    font-family: var(--normal-Fonts);
+    color: var(--Title-Col);
+    margin-bottom: .75rem;
+  }
+  Button{
+    font-size: 20px;
+      background: none;
+      border: none;
+      background: var(--First-Col);
+      padding: 12px;
+      border-top-left-radius: 21px;
+      border-bottom-right-radius: 21px;
+      margin-left: -100px;
+      color: white;
+  }
+  .RightView{
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+  
+  .Imges{
+    position: relative;
+    width: 325px;
+    height: 378px;
+    justify-self: center;
+  }
+  .Imges img{
+    position: absolute;
+  }
+  .ImagesFrute1{
+    width: 440px;
+    left: -.5rem;
+  }
+  .ImagesFrute3{
+    width: 700px;
+    left: -2rem
+  }
+  .ImagesFrute2{
+    width: 362px;
+    left: -5rem;
+    right: 0;
+    top: 2rem;
+    margin: 0 auto;
+    transform: rotate(15deg);
+    animation-name: Move-an;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transform: rotate(15deg);
+    animation-delay:2s;
+  }
+  .ImagesFrute5:nth-child(1){
+    width: 50px;
+    transform: rotate(30deg);
+  } 
+  .ImagesFrute5:nth-child(2){
+    width: 40px;
+  }
+  .ImagesFrute5:nth-child(1){
+    top: -3rem;
+    right: -4rem;
+  }
+  .ImagesFrute5:nth-child(2){
+    transform: rotate(-65deg);
+    top: 1.5rem;
+    left: 2.25rem;
+  }
+  @keyframes Move-an {
+    0%{
+      transform: translateY(0) rotate(15deg);
+    }
+    50%{
+      transform: translateY(-1.5rem) rotate(15deg);
+    }
+    100%{
+      transform: translateY(0) rotate(15deg);
+    }
+  }
+  /* End FirstView */
+  /* Start DivCol */
+  .DivCol1{
+    width: 400px;
+    height: 400px;
+    background: hsl(2, 100%, 80%);
+    position: absolute;
+    top: -9px;
+    left: -16%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+  }
+  .DivCol2{
+    width: 400px;
+    height: 400px;
+    background: hsl(2, 100%, 80%);
+    position: absolute;
+    top: 366px;
+    right: -16%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+  }
+  /* End DivCol */
+  a{
+    text-decoration: none;
+  }

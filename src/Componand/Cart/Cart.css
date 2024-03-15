@@ -1,0 +1,207 @@
+/* Start Cart */
+.Ico{
+    position: fixed;
+    top: 18px;
+    right: 8px;
+    font-size: 18px;
+    z-index: 2;
+    cursor: pointer;
+  
+  }
+  .ProoInCart{
+    position: fixed;
+    top: 6px;
+    right: 17px;
+    font-size: 14px;
+    z-index: 2;
+    background: #5bc791;
+    width: 19px;
+    height: 19px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .AllProCartr{
+    position: relative;
+    top: 60px;
+  }
+  .OverLayCart{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1;
+    opacity: .6;
+  }
+  .OvelLay{
+    background-color: black;
+    width: 200%;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .Cart{
+    width: 380px;
+    height: 102%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+  }
+  .EmpatyCart{
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    left: 18%;
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    line-height: 100%;
+    margin: 8px;
+    border: 0;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .EmpatyCartbtn{
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    left: 27%;
+    background-color:#5bc791 ;
+    padding: 9px;
+    border-radius: 5px;
+    line-height: 100%;
+    margin: 8px;
+    border: 0;
+    display: block;
+    }
+  .CartProduct{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+  .CloseIcop{
+    float: right;
+    margin: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+  }
+  .BaskeTx{
+    font-size: 25px;
+    position: relative;
+    top: 28px;
+    left: 25px;
+    display: inline;
+    color: black;
+  }
+  .ProoLenght{
+    margin-left: 6px;
+    display: inline;
+    font-size: 18px;
+  }
+  .CartPro{
+    width: 97%;
+    height: 100px;
+    margin: 8px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  .AllDetiCart{
+    display: flex;
+  }
+  .ImgCart{
+    width: 80px;
+    height: 80px;
+    margin: 7px ;
+    border-radius: 8px;
+  }
+  .TilteCart{
+    position: relative;
+    top: 12px;
+    left: 6px;
+    color: black;
+  }
+  .CartPrice{
+    position: relative;
+    top: 70px;
+    left: -70px;
+    color: black;
+  }
+  .EGB{
+    position: relative;
+    left: -10px;
+    color: black;
+  }
+  .CountCart{
+    height: 30px;
+    width: 50px;
+    position: relative;
+    top: 25px;
+    margin: 4px;
+  }
+  .RempveProCart{
+    font-size: 15px;
+    position: relative;
+    top:33px;
+    right: -10px;
+    margin: 4px;
+    cursor: pointer;
+    color: black;
+  }
+  .ProcedBox{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 80%;
+    z-index: 1;
+    background-color: white;
+  }
+  .ProcedBtnCart{
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 43%;
+    left: 8%;
+    background-color: #5bc791;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    margin:8px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .AllTotal{
+    position: relative;
+    top: -33px;
+    display: flex;
+    color: black;
+  }
+  .TotalTx{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  .TotalNum{
+    position: relative;
+    right: -200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
