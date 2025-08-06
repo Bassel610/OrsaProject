@@ -29,7 +29,7 @@ let [proInCart, setproInCart] = useState(JSON.parse(
                 setcartVis(false)
             }}
         />
-        <div className="Nav"> 
+        <nav className="Nav" role="navigation" aria-label="Main navigation">
         <Logo />
             <div className="NavList">
                 <ul className="ULnav">
@@ -37,7 +37,7 @@ let [proInCart, setproInCart] = useState(JSON.parse(
                     <li className="LiNav"  onClick={() => dispatsh(scroolAbouFun())}>{props.li2}</li>
                     <li className="LiNav" onClick={() => dispatsh(scroolServFun())}>{props.li3}</li>
                     <li className="LiNav" onClick={() => dispatsh(scroolConFun())}>{props.li4}</li>
-                    <Link to="/Shope" style={LinkeBTN} className="LiNav">{props.li5}</Link>
+                    <Link to="/shop" style={LinkeBTN} className="LiNav">{props.li5}</Link>
                     {/* <li className="LiNav">{props.li6}</li> */}
                     {/* <li className="LiNav"
                     onClick={()=>{
@@ -46,9 +46,9 @@ let [proInCart, setproInCart] = useState(JSON.parse(
                     >cart</li> */}
                 </ul>
             </div>
-                <div><FaListUl className={toggleNav? "IcoToggle" : "Icon"} onClick={toggleNavFun}/></div>
-        </div>
-                <div className={ toggleNav ? "NavMopile Down" : "NavMopile "}>
+                <div><FaListUl className={toggleNav? "mobile-menu-icon active" : "mobile-menu-icon"} onClick={toggleNavFun}/></div>
+        </nav>
+                <div className={ toggleNav ? "NavMopile Down" : "NavMopile"}>
                     <div className="NavList2">
                         <ul className="ULnav2">
                     <li className="LiNav2 FrstCol" onClick={() => {

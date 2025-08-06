@@ -8,10 +8,12 @@ import Shope from './Pages/Shope/Shope';
 function App() {
   return (
     <div className="App">
+      <main role="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Shope" element={<Shope />} />
+          <Route path="/shop" element={<Shope />} />
         </Routes>
+      </main>
     </div>
   );
 }

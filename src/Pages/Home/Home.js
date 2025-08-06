@@ -1,9 +1,11 @@
 import About from "../../Componand/home/About/About"
-import Conect from "../../Componand/home/Conect/Conect"
+import Contact from "../../Componand/home/Conect/Conect"
 import FirstView from "../../Componand/home/FirstSection/FirstyView"
-import Foter from "../../Componand/home/Footer/Footer"
+import Footer from "../../Componand/home/Footer/Footer"
 import Margin from "../../SameCompanad/Margin"
-import Servace from "../../Componand/home/Service/Service"
+import Service from "../../Componand/home/Service/Service"
+import Testimonials from "../../Componand/home/Testimonials/Testimonials"
+import CTA from "../../Componand/home/CTA/CTA"
 
 function Home () {
     return (
@@ -11,9 +13,11 @@ function Home () {
             <Margin />
             <FirstView />
             <About />
-            <Servace />
-            <Conect />
-            <Foter />
+            <Service />
+            <Testimonials />
+            <CTA />
+            <Contact />
+            <Footer />
         </>
     )
 }

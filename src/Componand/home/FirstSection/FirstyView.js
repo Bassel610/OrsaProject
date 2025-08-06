@@ -5,7 +5,7 @@ import "./FirstSection.css"
 function FirstView () {
     return (
         <>
-        <Nav  li1="Home" li2="About" li3="Servece" li4="contact" li5="Shope"  />
+        <Nav  li1="Home" li2="About" li3="Services" li4="Contact" li5="Shop"  />
         <FirstViewCom />
         <DivCol />
         </>

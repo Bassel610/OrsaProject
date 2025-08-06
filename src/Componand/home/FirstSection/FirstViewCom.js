@@ -22,20 +22,21 @@ function FirstViewCom ({scrool, ease}) {
 
     return (
         <>
-        <div className="FirstView">
+        <section className="FirstView" aria-label="Hero section">
             <div className="LeftView" ref={OpatityText}>
-                <div className="BigText">
-                        Get Fresh <br />
-                        <span className="FrstCol">donuts</span> <br />
-                        EveryDay <br />
-                </div>
+                <h1 className="BigText">
+                        Fresh <span className="text-accent">Donuts</span> <br />
+                        Delivered <br />
+                        <span className="text-accent">Daily</span>
+                </h1>
                 <div className="SmallText">
-                Start at 5 pound, get <br />
-                Fresh donuts and more. <br />
+                    Indulge in our handcrafted donuts made fresh every morning. <br />
+                    Starting from just £5, experience the perfect blend of taste and quality.
                 </div>
-                {/* <div >
-                    <button className="Button">Details</button>
-                </div> */}
+                <div className="hero-buttons">
+                    <button className="btn-primary">Order Now</button>
+                    <button className="btn-secondary">View Menu</button>
+                </div>
             </div>
             <div className="RightView">
                 <div className="Imges">
@@ -50,7 +51,7 @@ function FirstViewCom ({scrool, ease}) {
                 alt="apple" className="ImagesFrute3 position"/>
                 </div>
             </div>
-        </div>
+        </section>
         </>
     )
 }

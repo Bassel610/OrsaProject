@@ -1,10 +1,12 @@
 import logo from "../Media/Images/logo.png"
-function Logo () {
+function Logo() {
     return (
-        <>
-            <img src={logo} alt='Logo' className='Logo' />
-            <h3 className="LogoNav"><span className="FrstCol">Or</span>as</h3>
-        </>
+        <div className="logo-container">
+            <img src={logo} alt='Orsa Bakery Logo' className='logo-image' />
+            <h3 className="logo-text">
+                <span className="text-accent">Or</span>sa
+            </h3>
+        </div>
     )
 }
 

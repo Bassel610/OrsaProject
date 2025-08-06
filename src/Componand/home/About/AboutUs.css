@@ -1,50 +1,100 @@
-/* Start  About-Us */
-.About-Us{
-    width: 100%;
-    height: 900px;
-  }
-  .TextAbout{
-    width: 55%;
-  }
-  .H4About{
-    text-align: start;
-    margin: 24px;
-    font-size: var(--HFont);
-    font-family: var(--HFont-famly);
-    color: var(--HColor);
-  }
-  .Text{
-    color: black;
-    font-size: 18px;
-    font-family: cursive;
-    letter-spacing: 1px;
-  }
-  .ImgAbout{
-    float: right;
-    width: 400px;
-    height: auto;
+/* About Section */
+.About-Us {
+    padding: var(--spacing-3xl) var(--spacing-xl);
+    background: var(--background-secondary);
+    position: relative;
+    overflow: hidden;
+}
+
+.About-Us .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-3xl);
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.TextAbout {
+    z-index: 2;
+    position: relative;
+}
+
+.H4About {
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-lg);
+    font-weight: 700;
+}
+
+.Text {
+    color: var(--text-secondary);
+    font-size: var(--font-size-lg);
+    font-family: var(--font-primary);
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+}
+
+.ImgAbout {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-heavy);
     background: white;
-    position: relative;
-    top: -170px;
-    right: 100px;
-  
-  }
-  .ImgAb{
-  width: 100%;
-  height: 100%;
-  }
-  .VideoBout{
+    padding: var(--spacing-md);
+}
+
+.ImgAb {
     width: 100%;
-    height: 578px;
-    position: relative;
-    top: 74px;
-  }
-  .FirVid{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  }
-  /* End About-Us */
+    height: 400px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    transition: var(--transition-slow);
+}
+
+.ImgAb:hover {
+    transform: scale(1.05);
+}
+
+.VideoBout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.FirVid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .About-Us {
+        padding: var(--spacing-2xl) var(--spacing-md);
+    }
+
+    .About-Us .container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+        text-align: center;
+    }
+
+    .H4About {
+        font-size: var(--font-size-3xl);
+    }
+
+    .Text {
+        font-size: var(--font-size-base);
+    }
+
+    .ImgAb {
+        height: 300px;
+    }
+}
   

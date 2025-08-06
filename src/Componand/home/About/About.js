@@ -4,26 +4,30 @@ import "./AboutUs.css";
 function About () {
     return (
         <>
-        <div className="About-Us">
-            <div className="TextAbout">
-                <div className="H4About">Oras</div>
-                <div className="Text">When you wanna feel your best, when you are flavor obsessed there's only one way to refresh, 
-                you just gotta Jamba.  to your whirl'd and the fresh to flavor with our donuts, 
-                bowls, donuts and Cupcake. Now you can also taste the impossible with our chocolate or Lotus sauce .
-                order ahead, you know you just gotta.</div>
-            </div>
-            <div className="ImgAbout">
-                <img src={SCO} 
-                alt="phot" 
-                className="ImgAb" />
-                {/* <img src="https://v1.cdnpk.net/videvo_files/video/premium/video0441/large_watermarked/05_klubn_sok_20_put_klubn_FPpreview.mp4" /> */}
+        <section className="About-Us" id="about" aria-label="About Orsa Bakery">
+            <div className="container">
+                <div className="TextAbout">
+                    <h2 className="H4About">About Orsa Bakery</h2>
+                    <div className="Text">
+                        At Orsa Bakery, we're passionate about creating exceptional donuts that bring joy to every bite.
+                        Our skilled bakers use only the finest ingredients to craft fresh donuts, cupcakes, and pastries daily.
+                        From classic glazed to innovative flavors with chocolate and Lotus sauce, we offer something special for every taste.
+                        Experience the perfect blend of tradition and innovation in every product we create.
+                    </div>
+                </div>
+                <div className="ImgAbout">
+                    <img src={SCO}
+                    alt="Fresh donuts and pastries at Orsa Bakery"
+                    className="ImgAb" />
+                </div>
             </div>
             <div className="VideoBout">
-                <video  className="FirVid" autoPlay loop muted >
-                    <source src={dounts} />
+                <video className="FirVid" autoPlay loop muted>
+                    <source src={dounts} type="video/mp4" />
+                    Your browser does not support the video tag.
                 </video>
             </div>
-        </div>
+        </section>
         </>
     )
 }
